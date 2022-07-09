@@ -255,7 +255,16 @@ for (var i = 0; movies.length; i++){
 /* EXERCISE 15
    Write a piece of code to get only the movies produced in this millennium from the provided movies array.
 */
+let movieYear =  parseInt(movies[0].Year); 
+let melleniumYear = [];
+for (var i =0; i<= movies.length; i++){
+  if(movieYear[i] > 2000){
 
+    melleniumYear.push(movieYear);
+
+
+  }
+}
 /* EXERCISE 16
    Write a piece of code to get  the movie with the  id given below from the provided movies array.
 */
@@ -281,3 +290,12 @@ console.log(sumOfYears);
 /* EXERCISE 18
    Write a piece of code to get  all the movies in the provided movies array which contain the string value (provided below) in the title.
 */
+var movieQuery = [];
+const query = "Ring";
+for (var i = 0; i<= movies.length){
+  if (movies[i].Title.includes(query)){
+    movieQuery.push(movies[i])
+  }else{
+
+  }
+}
