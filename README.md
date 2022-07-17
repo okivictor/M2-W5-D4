@@ -4,3 +4,4 @@ edit JS code for assignment (arrays)
 implement various applications of "for loop" 
 add JS objects
 update code
+update code to delete item from array
